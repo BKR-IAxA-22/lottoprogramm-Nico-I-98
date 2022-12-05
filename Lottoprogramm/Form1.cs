@@ -27,7 +27,15 @@ namespace Lottoprogramm
             for (int i = 0; i < 6; i++)
             {
                 zahl[i] = random.Next(1, 49);
+
             }
+            //Ausgabe 
+            Zahl1.Text = Convert.ToString(zahl[0]);
+            Zahl2.Text = Convert.ToString(zahl[1]);
+            Zahl3.Text = Convert.ToString(zahl[2]);
+            Zahl4.Text = Convert.ToString(zahl[3]);
+            Zahl5.Text = Convert.ToString(zahl[4]);
+            Zahl6.Text = Convert.ToString(zahl[5]);
 
         }
     }
