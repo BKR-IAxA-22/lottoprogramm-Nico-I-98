@@ -41,12 +41,13 @@
             // 
             this.button1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.button1.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(198, 320);
+            this.button1.Location = new System.Drawing.Point(187, 185);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(384, 69);
             this.button1.TabIndex = 0;
             this.button1.Text = "Generate";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Zahl1
             // 
@@ -106,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(750, 323);
             this.Controls.Add(this.Zahl6);
             this.Controls.Add(this.Zahl5);
             this.Controls.Add(this.Zahl4);
