@@ -36,12 +36,12 @@
             this.Zahl4 = new System.Windows.Forms.Label();
             this.Zahl5 = new System.Windows.Forms.Label();
             this.Zahl6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tippzahl1 = new System.Windows.Forms.TextBox();
+            this.tippzahl2 = new System.Windows.Forms.TextBox();
+            this.tippzahl3 = new System.Windows.Forms.TextBox();
+            this.tippzahl4 = new System.Windows.Forms.TextBox();
+            this.tippzahl5 = new System.Windows.Forms.TextBox();
+            this.tippzahl6 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -128,72 +128,72 @@
             this.Zahl6.TabIndex = 6;
             this.Zahl6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // tippzahl1
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(187, 129);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(40, 32);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tippzahl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tippzahl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tippzahl1.Location = new System.Drawing.Point(187, 129);
+            this.tippzahl1.Name = "tippzahl1";
+            this.tippzahl1.Size = new System.Drawing.Size(40, 32);
+            this.tippzahl1.TabIndex = 7;
+            this.tippzahl1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // tippzahl2
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(255, 129);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(40, 32);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tippzahl2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tippzahl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tippzahl2.Location = new System.Drawing.Point(255, 129);
+            this.tippzahl2.Name = "tippzahl2";
+            this.tippzahl2.Size = new System.Drawing.Size(40, 32);
+            this.tippzahl2.TabIndex = 8;
+            this.tippzahl2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // tippzahl3
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(326, 129);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(40, 32);
-            this.textBox3.TabIndex = 9;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tippzahl3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tippzahl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tippzahl3.Location = new System.Drawing.Point(326, 129);
+            this.tippzahl3.Name = "tippzahl3";
+            this.tippzahl3.Size = new System.Drawing.Size(40, 32);
+            this.tippzahl3.TabIndex = 9;
+            this.tippzahl3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox4
+            // tippzahl4
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(397, 129);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(40, 32);
-            this.textBox4.TabIndex = 10;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tippzahl4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tippzahl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tippzahl4.Location = new System.Drawing.Point(397, 129);
+            this.tippzahl4.Name = "tippzahl4";
+            this.tippzahl4.Size = new System.Drawing.Size(40, 32);
+            this.tippzahl4.TabIndex = 10;
+            this.tippzahl4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox5
+            // tippzahl5
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(467, 129);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(40, 32);
-            this.textBox5.TabIndex = 11;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tippzahl5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tippzahl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tippzahl5.Location = new System.Drawing.Point(467, 129);
+            this.tippzahl5.Name = "tippzahl5";
+            this.tippzahl5.Size = new System.Drawing.Size(40, 32);
+            this.tippzahl5.TabIndex = 11;
+            this.tippzahl5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox6
+            // tippzahl6
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(541, 129);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(40, 32);
-            this.textBox6.TabIndex = 12;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tippzahl6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tippzahl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tippzahl6.Location = new System.Drawing.Point(541, 129);
+            this.tippzahl6.Name = "tippzahl6";
+            this.tippzahl6.Size = new System.Drawing.Size(40, 32);
+            this.tippzahl6.TabIndex = 12;
+            this.tippzahl6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(326, 18);
+            this.label1.Location = new System.Drawing.Point(326, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 45);
             this.label1.TabIndex = 13;
@@ -235,12 +235,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tippzahl6);
+            this.Controls.Add(this.tippzahl5);
+            this.Controls.Add(this.tippzahl4);
+            this.Controls.Add(this.tippzahl3);
+            this.Controls.Add(this.tippzahl2);
+            this.Controls.Add(this.tippzahl1);
             this.Controls.Add(this.Zahl6);
             this.Controls.Add(this.Zahl5);
             this.Controls.Add(this.Zahl4);
@@ -265,12 +265,12 @@
         private System.Windows.Forms.Label Zahl4;
         private System.Windows.Forms.Label Zahl5;
         private System.Windows.Forms.Label Zahl6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tippzahl1;
+        private System.Windows.Forms.TextBox tippzahl2;
+        private System.Windows.Forms.TextBox tippzahl3;
+        private System.Windows.Forms.TextBox tippzahl4;
+        private System.Windows.Forms.TextBox tippzahl5;
+        private System.Windows.Forms.TextBox tippzahl6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
