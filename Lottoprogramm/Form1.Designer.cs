@@ -42,6 +42,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -63,66 +64,66 @@
             // 
             this.Zahl1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Zahl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Zahl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Zahl1.Location = new System.Drawing.Point(187, 73);
             this.Zahl1.Name = "Zahl1";
             this.Zahl1.Size = new System.Drawing.Size(40, 31);
             this.Zahl1.TabIndex = 1;
-            this.Zahl1.Text = "Zahl1";
             this.Zahl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Zahl2
             // 
             this.Zahl2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Zahl2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Zahl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Zahl2.Location = new System.Drawing.Point(255, 72);
             this.Zahl2.Name = "Zahl2";
             this.Zahl2.Size = new System.Drawing.Size(40, 31);
             this.Zahl2.TabIndex = 2;
-            this.Zahl2.Text = "Zahl2";
             this.Zahl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Zahl3
             // 
             this.Zahl3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Zahl3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Zahl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Zahl3.Location = new System.Drawing.Point(326, 72);
             this.Zahl3.Name = "Zahl3";
             this.Zahl3.Size = new System.Drawing.Size(40, 32);
             this.Zahl3.TabIndex = 3;
-            this.Zahl3.Text = "Zahl3";
             this.Zahl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Zahl4
             // 
             this.Zahl4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Zahl4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Zahl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Zahl4.Location = new System.Drawing.Point(397, 73);
             this.Zahl4.Name = "Zahl4";
             this.Zahl4.Size = new System.Drawing.Size(40, 31);
             this.Zahl4.TabIndex = 4;
-            this.Zahl4.Text = "Zahl4";
             this.Zahl4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Zahl5
             // 
             this.Zahl5.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Zahl5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Zahl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Zahl5.Location = new System.Drawing.Point(467, 73);
             this.Zahl5.Name = "Zahl5";
             this.Zahl5.Size = new System.Drawing.Size(40, 32);
             this.Zahl5.TabIndex = 5;
-            this.Zahl5.Text = "Zahl5";
             this.Zahl5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Zahl6
             // 
             this.Zahl6.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Zahl6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Zahl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Zahl6.Location = new System.Drawing.Point(541, 73);
             this.Zahl6.Name = "Zahl6";
             this.Zahl6.Size = new System.Drawing.Size(40, 31);
             this.Zahl6.TabIndex = 6;
-            this.Zahl6.Text = "Zahl6";
             this.Zahl6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox1
@@ -185,12 +186,25 @@
             this.textBox6.TabIndex = 12;
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(334, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(94, 37);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Lotto";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(750, 323);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -204,8 +218,9 @@
             this.Controls.Add(this.Zahl2);
             this.Controls.Add(this.Zahl1);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Lotto";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,6 +241,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label1;
     }
 }
 
