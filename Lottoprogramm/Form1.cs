@@ -49,10 +49,10 @@ namespace Lottoprogramm
                 }
                 if (treffer = true)
                 {
-                    //if ()
-                    //{
-                    //    tippzahl1.ForeColor = System.Drawing.Color.Red;
-                    //}
+                    if ()
+                    {
+                        tippzahl1.ForeColor = System.Drawing.Color.Red;
+                    }
                 }
 
             }
