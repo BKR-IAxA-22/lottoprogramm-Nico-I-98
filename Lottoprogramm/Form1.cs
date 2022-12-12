@@ -45,16 +45,40 @@ namespace Lottoprogramm
                 for(int j=0; j < 6; j++)
                 {
                     if (zahl[i] == tippzahl[j])
-                        treffer = true;
-                }
-                if (treffer = true)
-                {
-                    if ()
                     {
-                        tippzahl1.ForeColor = System.Drawing.Color.Red;
+                        treffer = true;
                     }
                 }
-
+                if (treffer == true && i == 0)
+                {
+                    tippzahl1.ForeColor = System.Drawing.Color.Red;
+                    treffer = false;
+                }
+                if (treffer == true && i == 1)
+                {
+                    tippzahl2.ForeColor = System.Drawing.Color.Red;
+                    treffer = false;
+                }
+                if (treffer == true && i == 2)
+                {
+                    tippzahl3.ForeColor = System.Drawing.Color.Red;
+                    treffer = false;
+                }
+                if (treffer == true && i == 3)
+                {
+                    tippzahl4.ForeColor = System.Drawing.Color.Red;
+                    treffer = false;
+                }
+                if (treffer == true && i == 4)
+                {
+                    tippzahl5.ForeColor = System.Drawing.Color.Red;
+                    treffer = false;
+                }
+                if (treffer == true && i == 5)
+                {
+                    tippzahl6.ForeColor = System.Drawing.Color.Red;
+                    treffer = false;
+                }
             }
         }
     }
