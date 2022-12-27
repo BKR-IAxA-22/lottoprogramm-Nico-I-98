@@ -1,38 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Lottoprogramm
 {
     public partial class Form1 : Form
     {
-        //Variablen
+        // Variablen
         int[] zahl = new int[7];
         int[] tippzahl = new int[7];
-        Boolean treffer;
+        bool treffer;
+
         public Form1()
         {
             InitializeComponent();
         }
+
         Random random = new Random();
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //6 Random Zahlen Generieren 
+            // 6 Random Zahlen generieren
             for (int i = 0; i < 6; i++)
             {
                 zahl[i] = random.Next(1, 49);
-
             }
-            //Ausgabe 
+
+            // Ausgabe
             Zahl1.Text = Convert.ToString(zahl[0]);
             Zahl2.Text = Convert.ToString(zahl[1]);
             Zahl3.Text = Convert.ToString(zahl[2]);
@@ -40,45 +34,65 @@ namespace Lottoprogramm
             Zahl5.Text = Convert.ToString(zahl[4]);
             Zahl6.Text = Convert.ToString(zahl[5]);
 
-            for(int i=0; i < 6; i++)
+            treffer = false;
+
+            // Überprüfung, ob die Tippzahlen mit den Zufallszahlen übereinstimmen
+            for (int i = 0; i < 6; i++)
             {
-                for(int j=0; j < 6; j++)
+                for (int j = 0; j < 6; j++)
                 {
                     if (zahl[i] == tippzahl[j])
                     {
                         treffer = true;
+                        break;
                     }
                 }
-                if (treffer == true && i == 0)
+
+                // Farbe der Tippzahl-Labels ändern, wenn ein Treffer vorliegt
+                if (treffer)
                 {
-                    tippzahl1.ForeColor = System.Drawing.Color.Red;
-                    treffer = false;
+                    switch (i)
+                    {
+                        case 0:
+                            if (tippzahl1.ForeColor != Color.Red)
+                            {
+                                tippzahl1.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 1:
+                            if (tippzahl2.ForeColor != Color.Red)
+                            {
+                                tippzahl2.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 2:
+                            if (tippzahl3.ForeColor != Color.Red)
+                            {
+                                tippzahl3.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 3:
+                            if (tippzahl4.ForeColor != Color.Red)
+                            {
+                                tippzahl4.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 4:
+                            if (tippzahl5.ForeColor != Color.Red)
+                            {
+                                tippzahl5.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 5:
+                            if (tippzahl6.ForeColor != Color.Red)
+                            {
+                                tippzahl6.ForeColor = Color.Red;
+                            }
+                            break;
+                    }
                 }
-                if (treffer == true && i == 1)
-                {
-                    tippzahl2.ForeColor = System.Drawing.Color.Red;
-                    treffer = false;
-                }
-                if (treffer == true && i == 2)
-                {
-                    tippzahl3.ForeColor = System.Drawing.Color.Red;
-                    treffer = false;
-                }
-                if (treffer == true && i == 3)
-                {
-                    tippzahl4.ForeColor = System.Drawing.Color.Red;
-                    treffer = false;
-                }
-                if (treffer == true && i == 4)
-                {
-                    tippzahl5.ForeColor = System.Drawing.Color.Red;
-                    treffer = false;
-                }
-                if (treffer == true && i == 5)
-                {
-                    tippzahl6.ForeColor = System.Drawing.Color.Red;
-                    treffer = false;
-                }
+
+                treffer = false;
             }
         }
     }
